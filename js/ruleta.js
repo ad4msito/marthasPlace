@@ -1,6 +1,6 @@
 const options = ["Bono 1", "Bono 2", "Bono 3", "Bono 4"]; // Array de opciones dinámicas
 const results = ["Compra de maquillaje", "Compra de ropa", "Compra en Bazar/Chino", "Cena totalmente paga o Comodín"];
-const img = ["/img/maquillaje.jpeg", "/img/ropa.jpeg", "/img/bazar.jpg", "/img/cena.jpeg"];
+const img = ["img/maquillaje.jpeg", "img/ropa.jpeg", "img/bazar.jpg", "img/cena.jpeg"];
 const wheel = document.getElementById('wheel');
 const resultDisplay = document.getElementById('result');
 const resultContainer = document.querySelector('.result-container'); // Selecciona el contenedor de resultados
