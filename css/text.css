@@ -1,0 +1,16 @@
+#text {
+    background-color:#2e294e;
+}
+#text .sector-container {
+    display: flex;
+    justify-content: center;
+}
+#text .sector-container .carta {
+    background-color:#f0ead6 ;
+    width: 90%;
+}
+#text .sector-container .carta p {
+    font-size: 3vh;
+    width: 100%;
+    text-align: center;
+}

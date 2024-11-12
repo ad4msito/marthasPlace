@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    display: grid;
+}
+section {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    max-width: 100vw;
+}
+.sector-container {
+    min-height: 100vh;
+    width: 100vw;
+}
+p, h1, h3, h2 {
+    font-family: "DM Serif Display", serif;
+    color: #2e294e;
+}

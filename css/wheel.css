@@ -1,0 +1,93 @@
+
+
+.wheel-container {
+    width: auto;
+    height: auto;
+    grid-area: "ruleta";
+}
+
+.wheel {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    border: 1vh solid #2e294edd;
+    position: relative;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: transform 4s ease-out;
+}
+
+.wheel-segment {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    transform-origin: 100% 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    font-family: "DM Serif Display", serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.arrow {
+    grid-area: "flecha";
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 7vh;
+    color: #2e294e;
+    }
+
+.spin-button {
+    margin: 1vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    grid-area: "boton";
+    justify-self: center;
+    z-index: 1;
+    padding: 1vh 2vh;
+    border-radius: 3vh;
+    border: 0;
+    background-color: #2e294e;
+    letter-spacing: 0.2vh;
+    transition: all 0.3s ease;
+    box-shadow: #2e294edd 0px 0.9vh 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    }
+    
+    .spin-button:hover {
+    box-shadow: #2e294edd 0px 0.5vh 0px 0px;
+    }
+    
+    .spin-button:active {
+    background-color: #2e294e;
+    /*50, 168, 80*/
+    box-shadow: #2e294edd 0px 0px 0px 0px;
+    transform: translateY(1vh);
+    transition: 200ms;
+    }
+      
+.result {
+    font-size: 4vh;
+    color: #2e294edd;
+    font-weight: bold;
+    font-family: "DM Serif Display", serif;
+
+    grid-area: "resultado";
+}
+@media (max-width:800px){
+    .wheel {
+        width: 30vh;
+        height: 30vh;
+
+    }
+    
+.arrow {
+    font-size: 2vh;
+    color: #2e294e;
+    }
+
+}

@@ -1,0 +1,18 @@
+#photos {
+    background-color:#f0ead6;
+}
+img {
+    object-fit: contain;
+}
+#photos .sector-container .img-container {
+    width: 100vw;
+    display: grid;
+}
+#photos .sector-container .img-container .img {
+    width: 100%;
+    height: auto;
+}
+#photos .sector-container .img-container .img img {
+    height: 100%;
+    width: 100%;
+}
